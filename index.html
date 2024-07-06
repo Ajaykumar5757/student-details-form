@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div>
+            <h1>Student details</h1>
+        </div>
+        <div class="second">
+            <form class="first">
+                <label>Student Roll no:</label>
+                <input type="number" id="fname" placeholder="enter your roll no" name="sname" required><br><br>
+                
+                <label>Student Name:</label>
+                <input type="text" id="lname" placeholder="enter your name" name="sname" required><br><br>
+
+                <label for="dept">Department:</label>
+                <select id="dept" required>
+                    <option value="n">Choose your department</option>
+                    <option value="ag">AGRI</option>
+                    <option value="ai">AIML</option>
+                    <option value="ece">ECE</option>
+                    <option value="cse">CSE</option>
+                    <option value="it">It</option>
+                    <option value="mech">MECH</option>
+                    <option value="bm">BIOMEDICAL</option>
+                    <option value="auto">AUTOMOBILE</option>
+                    <option value="che">CHEMICAL</option>
+                    <option value="civil">CIVIL</option>
+                </select><br><br>
+
+                <label>Marks scored in class X:</label>
+                <input type="number" id="m1" placeholder="enter your 10th mark" name="m1" required><br><br>
+
+                <label>Marks scored in class XII:</label>
+                <input type="number" id="m2" placeholder="enter your 12th mark" name="m2" required><br><br>
+
+                <label>Degree Percentage:</label>
+                <input type="number" id="m3" placeholder="don't use % symbol" name="m3" required><br><br>
+                
+                <button class="btn1">Submit</button>
+                <button class="btn2">Cancel</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
